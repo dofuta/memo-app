@@ -5,9 +5,3 @@
 <ul>
   <%= render @memos %>
 </ul>
-
-<ul>
-  <% @memos.each do |memo| %>
-    <%= render partial: "memo", locals: {memo: memo} %>
-  <% end %>
-</ul>
